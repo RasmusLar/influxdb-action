@@ -23,7 +23,7 @@ jobs:
         influxdb-version: [nightly, latest, 'v2.7.6', '2.7.5', 'v2.7.4', '2.6.1', 'v2.6.0', '2.5.1', 'v2.5.0']
         exclude:
           - os: windows-latest
-            influxdb-version: nightly
+            influxdb-version: nightly # Influx does not have support for Windows nightly.
         
     runs-on: ${{ matrix.os }}
     steps:

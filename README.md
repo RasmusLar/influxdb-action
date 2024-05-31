@@ -14,7 +14,7 @@ steps:
   - name: Check out repo
     uses: actions/checkout@v2
   - name: Setup InfluxDB
-    uses: RasmusLar/influxdb-action@v1
+    uses: RasmusLar/influxdb-action@v6
     with:
       influxdb_version: latest
       influxdb_org: influxdata
@@ -29,7 +29,7 @@ steps:
   - name: Check out repo
     uses: actions/checkout@v2
   - name: Setup InfluxDB
-    uses: RasmusLar/influxdb-action@v1
+    uses: RasmusLar/influxdb-action@v6
     with:
       influxdb_version: latest
       influxdb_start: false
@@ -41,7 +41,7 @@ steps:
   - name: Check out repo
     uses: actions/checkout@v2
   - name: Setup InfluxDB
-    uses: RasmusLar/influxdb-action@v1
+    uses: RasmusLar/influxdb-action@v6
     with:
       influxdb_version: 2.0.7
       influxdb_org: influxdata

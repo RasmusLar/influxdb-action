@@ -1,8 +1,8 @@
-name: 'The InfluxDB Action'
-description: 'Install and configure InfluxDB and the InfluxDB CLI.'
+name: 'The Multi Platform InfluxDB Action'
+description: 'Install and configure InfluxDB and the InfluxDB CLI, now for all the runner platforms!'
 branding:
   icon: 'database'
-  color: 'gray-dark'
+  color: 'purple'
 inputs:
   influxdb_version:
     description: 'Sets the version of InfluxDB to use (for example: 2.0.7). See https://portal.influxdata.com/downloads/ for versions. latest and nightly are also supported.'

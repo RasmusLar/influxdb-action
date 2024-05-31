@@ -2,7 +2,7 @@
 
 This action downloads, installs, and configures an InfluxDB OSS instance and CLI tooling that can be used in your automation.
 
-This downloads the specified version (or `latest` or `nightly`), and adds `influxd` and `influx` commands to `/usr/local/bin`.
+This downloads the specified version (or `latest` or `nightly`), and adds `influxd` and `influx` commands to `${GITHUB_PATH}`.
 
 # Usage
 
@@ -48,4 +48,5 @@ steps:
       influxdb_user: ci_user
       influxdb_password: password
       influxdb_bucket: dummy
+      influxdb_token: apitoken
 ```
